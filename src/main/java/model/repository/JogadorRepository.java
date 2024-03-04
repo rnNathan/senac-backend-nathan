@@ -142,7 +142,7 @@ public class JogadorRepository implements BaseRepository<Jogador> {
 	}
 
 	@Override
-	public ArrayList<Jogador> consultarTodasCartas() {
+	public ArrayList<Jogador> consultarTodos() {
 		ArrayList<Jogador> jogadores = new ArrayList<>();
 		Connection conn = Banco.getConnection();
 		Statement stmt = Banco.getStatement(conn);

@@ -180,7 +180,7 @@ public class CartaRepository implements BaseRepository<Carta>{
 	}
 
 	@Override
-	public ArrayList<Carta> consultarTodasCartas() {
+	public ArrayList<Carta> consultarTodos() {
 		ArrayList<Carta> cartas = new ArrayList<>();
 		Connection conn = Banco.getConnection();
 		Statement stmt = Banco.getStatement(conn);

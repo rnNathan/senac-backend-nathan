@@ -18,7 +18,7 @@ public interface BaseRepository <T> {
 	public T consultarPorId(int id);
 		
 		
-	public ArrayList<T> consultarTodasCartas();
+	public ArrayList<T> consultarTodos();
 	
 	
 }
