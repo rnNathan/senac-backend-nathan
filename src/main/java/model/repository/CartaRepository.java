@@ -147,7 +147,7 @@ public class CartaRepository implements BaseRepository<Carta>{
 	}
 
 	@Override
-	public Carta consultarTodosId(int id) {
+	public Carta consultarPorId(int id) {
 		Connection conn = Banco.getConnection();
 		Statement stmt = Banco.getStatement(conn);
 		

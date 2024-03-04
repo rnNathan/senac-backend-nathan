@@ -15,7 +15,7 @@ public interface BaseRepository <T> {
 	public boolean alterar (T entidade);
 		
 	
-	public T consultarTodosId(int id);
+	public T consultarPorId(int id);
 		
 		
 	public ArrayList<T> consultarTodasCartas();
